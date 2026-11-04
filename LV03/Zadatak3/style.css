@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+th {
+  background-color: #cccccc;
+  font-weight: bold;
+}
+
+tr.paran td {
+  background-color: #fff2cc;
+}
