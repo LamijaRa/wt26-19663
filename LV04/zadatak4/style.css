@@ -1,0 +1,33 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.cvor {
+    margin: 4px 0;
+}
+
+.naslov-cvora {
+    cursor: pointer;
+    user-select: none;
+}
+
+.naslov-cvora:hover {
+    color: #1565c0;
+}
+
+.znak {
+    display: inline-block;
+    width: 14px;
+}
+
+/* podstablo je na pocetku sakriveno */
+.podstablo {
+    display: none;
+    margin-left: 40px;
+}
+
+.podstablo div {
+    margin: 4px 0;
+}

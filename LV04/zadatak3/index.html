@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV4 - Zadatak 3 - Evidencija troškova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Evidencija troškova</h1>
+
+    <form id="forma-unos">
+        <label for="naziv">Naziv:</label>
+        <input type="text" id="naziv" name="naziv">
+
+        <label for="iznos">Iznos (KM):</label>
+        <input type="text" id="iznos" name="iznos">
+
+        <button type="button" id="dodaj">Dodaj</button>
+    </form>
+
+    <p id="greska" class="greska"></p>
+    <p>Broj stavki: <span id="broj-stavki">0</span></p>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Naziv</th>
+                <th>Iznos (KM)</th>
+            </tr>
+        </thead>
+        <tbody id="stavke">
+            <tr>
+                <td>Gorivo</td>
+                <td class="iznos">60.00</td>
+            </tr>
+            <tr>
+                <td>Kafa</td>
+                <td class="iznos">3.50</td>
+            </tr>
+            <tr>
+                <td>Knjiga</td>
+                <td class="iznos">25.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr id="red-zbir">
+                <td>Ukupno</td>
+                <td id="zbir">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

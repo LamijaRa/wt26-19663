@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LV4 - Zadatak 2 - Vjezba 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Obavijest</h1>
+
+    <form id="obavijest">
+        <label for="naslov">Naslov:</label>
+        <input type="text" id="naslov" name="naslov">
+        <label for="tekst">Tekst obavijesti:</label>
+        <textarea id="tekst" name="tekst" rows="4"></textarea>
+
+        <fieldset>
+            <legend>Kategorija</legend>
+            <label>
+                <input type="radio" name="kategorija" value="hitno" checked> Hitno
+            </label>
+            <label>
+                <input type="radio" name="kategorija" value="informacija"> Informacija
+            </label>
+        </fieldset>
+
+        <p id="greska" class="greska"></p>
+
+        <button type="button" id="dugme-pregled">Pogledaj obavijest</button>
+        <button type="button" id="dugme-reset">Vrati formu u početno stanje</button>
+    </form>
+
+    <h2>Pregled obavijesti</h2>
+    <div id="pregled" class="pregled">
+        <span id="pregled-kategorija" class="oznaka">-</span>
+        <h3 id="pregled-naslov">Naslov još nije unesen</h3>
+        <p id="pregled-tekst">Tekst obavijesti će se pojaviti ovdje.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
