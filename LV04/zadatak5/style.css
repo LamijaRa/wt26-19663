@@ -1,0 +1,29 @@
+body {
+    font-family: "Times New Roman", serif;
+    margin: 40px;
+}
+
+#forma-sfera {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#forma-sfera label {
+    display: block;
+    margin-top: 6px;
+}
+
+#forma-sfera input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#forma-sfera button {
+    margin-top: 4px;
+}
+
+.greska {
+    color: #b00020;
+    font-size: 0.9em;
+    min-height: 1em;
+}
